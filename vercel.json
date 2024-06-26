@@ -6,7 +6,7 @@
             "config": {
                 "commands": [
                   "brew install libxml2 libxslt" ,
-                    "pip install -r requirements.txt"
+                    "pip install -r requirements"
                 ]
               }
     }
