@@ -91,7 +91,7 @@ def model_predict(img_path, model):
 
 
 
-@app.route('/predict', methods=['GET', 'POST'])
+@app.route('/predict', methods=[ 'POST'])
 def upload():
     if request.method == 'POST':
         # Get the file from post request
