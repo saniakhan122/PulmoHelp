@@ -58,7 +58,7 @@ def Predict():
     return render_template('predict.html')
 
 
-MODEL_PATH = 'D:\LDFlask\model_inception.h5'
+MODEL_PATH = 'model_inception.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
