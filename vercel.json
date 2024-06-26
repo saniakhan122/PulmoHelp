@@ -5,7 +5,8 @@
             "use": "@vercel/python",
             "config": {
                 "commands": [
-                  "brew install libxml2 libxslt" 
+                  "brew install libxml2 libxslt" ,
+                    "pip install -r requirements.txt"
                 ]
               }
     }
